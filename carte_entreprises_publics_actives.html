@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fcdf112b59751c77a91667fc2935f34a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fcdf112b59751c77a91667fc2935f34a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fcdf112b59751c77a91667fc2935f34a = L.map(
+                "map_fcdf112b59751c77a91667fc2935f34a",
+                {
+                    center: [16.25, -61.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f222299ad71ad36d7053b64cad8a20ce = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f222299ad71ad36d7053b64cad8a20ce.addTo(map_fcdf112b59751c77a91667fc2935f34a);
+        
+    
+            var marker_cluster_3aabb5cba9d640e400dead57540aa424 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_b627d8687a39b245fba4cded1c6b7497 = L.marker(
+                [16.210297, -61.487595],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_0b3b8f4b2cc1613a468ba16a284411b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d0747b6d942aae3accbaee5ed7886e3 = $(`<div id="html_4d0747b6d942aae3accbaee5ed7886e3" style="width: 100.0%; height: 100.0%;">GIP MAISON DEP PERSONNES HANDICAPEES</div>`)[0];
+                popup_0b3b8f4b2cc1613a468ba16a284411b2.setContent(html_4d0747b6d942aae3accbaee5ed7886e3);
+            
+        
+
+        marker_b627d8687a39b245fba4cded1c6b7497.bindPopup(popup_0b3b8f4b2cc1613a468ba16a284411b2)
+        ;
+
+        
+    
+    
+            var marker_d1ebfdfbeeaa6b4d86d17e4083c4902b = L.marker(
+                [16.211425, -61.488904],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_cd86d2429dac95f6482ae7f2bf689ced = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e9d99cc4845c5a3f571b71f45479a04 = $(`<div id="html_6e9d99cc4845c5a3f571b71f45479a04" style="width: 100.0%; height: 100.0%;">COLLEGE EDMOND BAMBUCK</div>`)[0];
+                popup_cd86d2429dac95f6482ae7f2bf689ced.setContent(html_6e9d99cc4845c5a3f571b71f45479a04);
+            
+        
+
+        marker_d1ebfdfbeeaa6b4d86d17e4083c4902b.bindPopup(popup_cd86d2429dac95f6482ae7f2bf689ced)
+        ;
+
+        
+    
+    
+            var marker_4ec6cd3472b3fd60727965d4c6865fb8 = L.marker(
+                [16.207082, -61.457063],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_263b09a5da3604f14749393ebd4fe19b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4fb54c1c73be9627d30525fd67508d8 = $(`<div id="html_f4fb54c1c73be9627d30525fd67508d8" style="width: 100.0%; height: 100.0%;">LYCEE POLYVALENT HOTELIER DU GOSIER - LYCEE DES METIERS DE L'HOTELLERIE ET DU TOURISME</div>`)[0];
+                popup_263b09a5da3604f14749393ebd4fe19b.setContent(html_f4fb54c1c73be9627d30525fd67508d8);
+            
+        
+
+        marker_4ec6cd3472b3fd60727965d4c6865fb8.bindPopup(popup_263b09a5da3604f14749393ebd4fe19b)
+        ;
+
+        
+    
+    
+            var marker_ad4a40f3ed1ce26a918e80e5cfa319d9 = L.marker(
+                [16.207082, -61.457063],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_1b11267b09cda1d7a459e94e15e09cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b2fe09e232545cc8616c2b74006d44f = $(`<div id="html_0b2fe09e232545cc8616c2b74006d44f" style="width: 100.0%; height: 100.0%;">LYCEE POLYVALENT HOTELIER DU GOSIER - LYCEE DES METIERS DE L'HOTELLERIE ET DU TOURISME</div>`)[0];
+                popup_1b11267b09cda1d7a459e94e15e09cb9.setContent(html_0b2fe09e232545cc8616c2b74006d44f);
+            
+        
+
+        marker_ad4a40f3ed1ce26a918e80e5cfa319d9.bindPopup(popup_1b11267b09cda1d7a459e94e15e09cb9)
+        ;
+
+        
+    
+    
+            var marker_aa966915e3e557266dedfd90bce284cd = L.marker(
+                [16.206171, -61.490773],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_94486806922d98198f116f123545a92f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f20cdedb86779a89eedf096af3c7b99 = $(`<div id="html_4f20cdedb86779a89eedf096af3c7b99" style="width: 100.0%; height: 100.0%;">"COMMUNAUTE D'AGGLOMERATION ""LA RIVIERA DU LEVANT"""</div>`)[0];
+                popup_94486806922d98198f116f123545a92f.setContent(html_4f20cdedb86779a89eedf096af3c7b99);
+            
+        
+
+        marker_aa966915e3e557266dedfd90bce284cd.bindPopup(popup_94486806922d98198f116f123545a92f)
+        ;
+
+        
+    
+    
+            var marker_c54a1f27fbf12ce049a0b37d874222ed = L.marker(
+                [16.226585, -61.513163],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_73d67b5a984572b7c332d817c8fe96b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e7f4171f5bd2812574124c35b2e7583 = $(`<div id="html_7e7f4171f5bd2812574124c35b2e7583" style="width: 100.0%; height: 100.0%;">SYNDICAT INTERCOMMUNAL D'ALIMENTATION EN EAU ET D'ASSAINISSEMENT DE LA GUADELOUPE</div>`)[0];
+                popup_73d67b5a984572b7c332d817c8fe96b0.setContent(html_7e7f4171f5bd2812574124c35b2e7583);
+            
+        
+
+        marker_c54a1f27fbf12ce049a0b37d874222ed.bindPopup(popup_73d67b5a984572b7c332d817c8fe96b0)
+        ;
+
+        
+    
+    
+            var marker_39b4c66356be98ae660b246036c299a3 = L.marker(
+                [16.226585, -61.513163],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_909706c38689a38d5e34c5c3b2a8c894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_717592ce5ae14d5c0cffc01d2e84ce83 = $(`<div id="html_717592ce5ae14d5c0cffc01d2e84ce83" style="width: 100.0%; height: 100.0%;">SYNDICAT INTERCOMMUNAL D'ALIMENTATION EN EAU ET D'ASSAINISSEMENT DE LA GUADELOUPE</div>`)[0];
+                popup_909706c38689a38d5e34c5c3b2a8c894.setContent(html_717592ce5ae14d5c0cffc01d2e84ce83);
+            
+        
+
+        marker_39b4c66356be98ae660b246036c299a3.bindPopup(popup_909706c38689a38d5e34c5c3b2a8c894)
+        ;
+
+        
+    
+    
+            var marker_63ffa79cf01596fe470c0a753253e60f = L.marker(
+                [16.226585, -61.513163],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_bc7f26b0a34172a42d880fd7085ccff6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47c44ad7276cb5622fe25eeafa2ce211 = $(`<div id="html_47c44ad7276cb5622fe25eeafa2ce211" style="width: 100.0%; height: 100.0%;">SYNDICAT INTERCOMMUNAL D'ALIMENTATION EN EAU ET D'ASSAINISSEMENT DE LA GUADELOUPE</div>`)[0];
+                popup_bc7f26b0a34172a42d880fd7085ccff6.setContent(html_47c44ad7276cb5622fe25eeafa2ce211);
+            
+        
+
+        marker_63ffa79cf01596fe470c0a753253e60f.bindPopup(popup_bc7f26b0a34172a42d880fd7085ccff6)
+        ;
+
+        
+    
+    
+            var marker_5d2facf18d709989f5372208227e6abe = L.marker(
+                [16.226585, -61.513163],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_5e4ef3b815e3402f30e7fb00215125b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc492fbb12f0df784bb9b75be83fe7c2 = $(`<div id="html_bc492fbb12f0df784bb9b75be83fe7c2" style="width: 100.0%; height: 100.0%;">SYNDICAT INTERCOMMUNAL D'ALIMENTATION EN EAU ET D'ASSAINISSEMENT DE LA GUADELOUPE</div>`)[0];
+                popup_5e4ef3b815e3402f30e7fb00215125b6.setContent(html_bc492fbb12f0df784bb9b75be83fe7c2);
+            
+        
+
+        marker_5d2facf18d709989f5372208227e6abe.bindPopup(popup_5e4ef3b815e3402f30e7fb00215125b6)
+        ;
+
+        
+    
+    
+            var marker_d77e800e82e8dbbab5e071795d149c31 = L.marker(
+                [16.206171, -61.490773],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_2e383c1ec27882827186529438fa6cc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4b9f3b7f13dc511e782ca965e42bac2 = $(`<div id="html_a4b9f3b7f13dc511e782ca965e42bac2" style="width: 100.0%; height: 100.0%;">SM D'INNOVATION ET DE VALORISATION DE GUADELOUPE (SINNOVAL GUADELOUPE)</div>`)[0];
+                popup_2e383c1ec27882827186529438fa6cc4.setContent(html_a4b9f3b7f13dc511e782ca965e42bac2);
+            
+        
+
+        marker_d77e800e82e8dbbab5e071795d149c31.bindPopup(popup_2e383c1ec27882827186529438fa6cc4)
+        ;
+
+        
+    
+    
+            var marker_1adb91937fae6c3491e67437c903ee26 = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_44764f87e6a4965d2752989fbcdd9851 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8b828206bf63611112c8b02815ad28a = $(`<div id="html_b8b828206bf63611112c8b02815ad28a" style="width: 100.0%; height: 100.0%;">REGIE EXPLOITATION PALAIS DES SPORTS ET CULTURE</div>`)[0];
+                popup_44764f87e6a4965d2752989fbcdd9851.setContent(html_b8b828206bf63611112c8b02815ad28a);
+            
+        
+
+        marker_1adb91937fae6c3491e67437c903ee26.bindPopup(popup_44764f87e6a4965d2752989fbcdd9851)
+        ;
+
+        
+    
+    
+            var marker_bfa6d51c661bb891302b94666cd6a418 = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_9551f7d4660fa485994c65064b555fe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f2404ea310b29d06818a77827528ee0 = $(`<div id="html_7f2404ea310b29d06818a77827528ee0" style="width: 100.0%; height: 100.0%;">MAIRIE</div>`)[0];
+                popup_9551f7d4660fa485994c65064b555fe4.setContent(html_7f2404ea310b29d06818a77827528ee0);
+            
+        
+
+        marker_bfa6d51c661bb891302b94666cd6a418.bindPopup(popup_9551f7d4660fa485994c65064b555fe4)
+        ;
+
+        
+    
+    
+            var marker_5732111662a167136328de384528e62e = L.marker(
+                [16.231944, -61.457133],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_b7b782cbc450f2648a967229ab8090b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5bea3434117bbe71087ca9967c8213d = $(`<div id="html_e5bea3434117bbe71087ca9967c8213d" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE PATER HILDEVERT</div>`)[0];
+                popup_b7b782cbc450f2648a967229ab8090b6.setContent(html_e5bea3434117bbe71087ca9967c8213d);
+            
+        
+
+        marker_5732111662a167136328de384528e62e.bindPopup(popup_b7b782cbc450f2648a967229ab8090b6)
+        ;
+
+        
+    
+    
+            var marker_50e2c8d91a03b34d1ba2e034cd33dcbe = L.marker(
+                [16.241356, -61.467105],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_20a3da76266e49b81d2d17f289b13766 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc5e63fd25090bd95ff7814451726ab7 = $(`<div id="html_fc5e63fd25090bd95ff7814451726ab7" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE TURENNE THENARD</div>`)[0];
+                popup_20a3da76266e49b81d2d17f289b13766.setContent(html_fc5e63fd25090bd95ff7814451726ab7);
+            
+        
+
+        marker_50e2c8d91a03b34d1ba2e034cd33dcbe.bindPopup(popup_20a3da76266e49b81d2d17f289b13766)
+        ;
+
+        
+    
+    
+            var marker_ce168590496a031b55288d444206c143 = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_04162cc65add3071df3993e68780ed50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba454d3ffb2d7ba831771b1378b1578e = $(`<div id="html_ba454d3ffb2d7ba831771b1378b1578e" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE SATURNIN JASOR</div>`)[0];
+                popup_04162cc65add3071df3993e68780ed50.setContent(html_ba454d3ffb2d7ba831771b1378b1578e);
+            
+        
+
+        marker_ce168590496a031b55288d444206c143.bindPopup(popup_04162cc65add3071df3993e68780ed50)
+        ;
+
+        
+    
+    
+            var marker_b7d040faa2e9438b914dcae0ab4d36b4 = L.marker(
+                [16.206533, -61.492245],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_f6bab1ccab7fdab4b02ec486067feec1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a3200bf7e6008e446d129f08d7456e3 = $(`<div id="html_1a3200bf7e6008e446d129f08d7456e3" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE GERMAINE LANTIN</div>`)[0];
+                popup_f6bab1ccab7fdab4b02ec486067feec1.setContent(html_1a3200bf7e6008e446d129f08d7456e3);
+            
+        
+
+        marker_b7d040faa2e9438b914dcae0ab4d36b4.bindPopup(popup_f6bab1ccab7fdab4b02ec486067feec1)
+        ;
+
+        
+    
+    
+            var marker_0ced9f31ff71de099eefb23517a72f62 = L.marker(
+                [16.236239, -61.483419],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_7744826ebc28fd68e0b05e0e93cdf17c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8226eb610d4292d433b7099107ce7a2b = $(`<div id="html_8226eb610d4292d433b7099107ce7a2b" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE AUGUSTIN GILLOT</div>`)[0];
+                popup_7744826ebc28fd68e0b05e0e93cdf17c.setContent(html_8226eb610d4292d433b7099107ce7a2b);
+            
+        
+
+        marker_0ced9f31ff71de099eefb23517a72f62.bindPopup(popup_7744826ebc28fd68e0b05e0e93cdf17c)
+        ;
+
+        
+    
+    
+            var marker_bccf13d106f415c595d1b931ff0887a1 = L.marker(
+                [16.214115, -61.435188],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_329bf000e60d3a35629d1fb8c17e8853 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d77158658c90b9ad5c16ebb411a2167a = $(`<div id="html_d77158658c90b9ad5c16ebb411a2167a" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE MOINET KLEBERT</div>`)[0];
+                popup_329bf000e60d3a35629d1fb8c17e8853.setContent(html_d77158658c90b9ad5c16ebb411a2167a);
+            
+        
+
+        marker_bccf13d106f415c595d1b931ff0887a1.bindPopup(popup_329bf000e60d3a35629d1fb8c17e8853)
+        ;
+
+        
+    
+    
+            var marker_93d100fca08091cebadad319ebb16ca1 = L.marker(
+                [16.206642, -61.488033],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_37d304e02e0bc86df7abcf6db7d0912f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f64b68aecd0a8d18b1ff90aa377ed38c = $(`<div id="html_f64b68aecd0a8d18b1ff90aa377ed38c" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE MARCEL GEORGES</div>`)[0];
+                popup_37d304e02e0bc86df7abcf6db7d0912f.setContent(html_f64b68aecd0a8d18b1ff90aa377ed38c);
+            
+        
+
+        marker_93d100fca08091cebadad319ebb16ca1.bindPopup(popup_37d304e02e0bc86df7abcf6db7d0912f)
+        ;
+
+        
+    
+    
+            var marker_7988a4f086a2ec9f28cbb3585f607ee5 = L.marker(
+                [16.217745, -61.455819],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_5d14e8b17a93c056c1e92a950bf89f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56b4c6dd3c5d7244bbf3346216987a4c = $(`<div id="html_56b4c6dd3c5d7244bbf3346216987a4c" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE MERI MEDARD</div>`)[0];
+                popup_5d14e8b17a93c056c1e92a950bf89f59.setContent(html_56b4c6dd3c5d7244bbf3346216987a4c);
+            
+        
+
+        marker_7988a4f086a2ec9f28cbb3585f607ee5.bindPopup(popup_5d14e8b17a93c056c1e92a950bf89f59)
+        ;
+
+        
+    
+    
+            var marker_735b41b0573b632cd2f9bf8093655234 = L.marker(
+                [16.220176, -61.50384],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_082eeb2a2e2a2d503f3c9f644931fb1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68d66c3b5fe2b78e77d5856d5ecc1726 = $(`<div id="html_68d66c3b5fe2b78e77d5856d5ecc1726" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE ROLLON SUZANNE</div>`)[0];
+                popup_082eeb2a2e2a2d503f3c9f644931fb1c.setContent(html_68d66c3b5fe2b78e77d5856d5ecc1726);
+            
+        
+
+        marker_735b41b0573b632cd2f9bf8093655234.bindPopup(popup_082eeb2a2e2a2d503f3c9f644931fb1c)
+        ;
+
+        
+    
+    
+            var marker_b5fdfcfd806e23e1f3f767e2cb5dc909 = L.marker(
+                [16.216306, -61.478962],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_e28e7f2cba4d157534c41e7b03fff2c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f234584c63b7e56cc30eaf5b233ad7a = $(`<div id="html_4f234584c63b7e56cc30eaf5b233ad7a" style="width: 100.0%; height: 100.0%;">ECOLE PRIMAIRE PUBLIQUE ARMAND LAZARE</div>`)[0];
+                popup_e28e7f2cba4d157534c41e7b03fff2c1.setContent(html_4f234584c63b7e56cc30eaf5b233ad7a);
+            
+        
+
+        marker_b5fdfcfd806e23e1f3f767e2cb5dc909.bindPopup(popup_e28e7f2cba4d157534c41e7b03fff2c1)
+        ;
+
+        
+    
+    
+            var marker_509aa7fd4d2d5c98de7c650ae7321b48 = L.marker(
+                [16.20552, -61.493117],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_f20da502ac350d3177dd8ba50c14fa17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6822302356d2cd66a9f3a1bff451f7c3 = $(`<div id="html_6822302356d2cd66a9f3a1bff451f7c3" style="width: 100.0%; height: 100.0%;">OFFICE DE TOURISME</div>`)[0];
+                popup_f20da502ac350d3177dd8ba50c14fa17.setContent(html_6822302356d2cd66a9f3a1bff451f7c3);
+            
+        
+
+        marker_509aa7fd4d2d5c98de7c650ae7321b48.bindPopup(popup_f20da502ac350d3177dd8ba50c14fa17)
+        ;
+
+        
+    
+    
+            var marker_e80a9ad972ab58de323e754b5e6dd8ec = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_028774d4ae11f115e059f3174bba1028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1d9619d05d865e59157d0a3b2750e40 = $(`<div id="html_a1d9619d05d865e59157d0a3b2750e40" style="width: 100.0%; height: 100.0%;">REGIE EXPLOITATION PALAIS SPORTS ET DE LA CULTURE</div>`)[0];
+                popup_028774d4ae11f115e059f3174bba1028.setContent(html_a1d9619d05d865e59157d0a3b2750e40);
+            
+        
+
+        marker_e80a9ad972ab58de323e754b5e6dd8ec.bindPopup(popup_028774d4ae11f115e059f3174bba1028)
+        ;
+
+        
+    
+    
+            var marker_9892baad7e67488d687143f535d2520e = L.marker(
+                [16.214115, -61.435188],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_8673589515bc7af55c0c51df279936c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e4254b6e316e931ef5d711e95bc0ae7 = $(`<div id="html_5e4254b6e316e931ef5d711e95bc0ae7" style="width: 100.0%; height: 100.0%;">ECOLE MATERNELLE MARCEL ARMANTINE</div>`)[0];
+                popup_8673589515bc7af55c0c51df279936c1.setContent(html_5e4254b6e316e931ef5d711e95bc0ae7);
+            
+        
+
+        marker_9892baad7e67488d687143f535d2520e.bindPopup(popup_8673589515bc7af55c0c51df279936c1)
+        ;
+
+        
+    
+    
+            var marker_298d3413c123b5cfb1685a157fe45dd3 = L.marker(
+                [16.203505, -61.477257],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_c727742cbf109090bd20598eeb15fdf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55b9e15241a946f570df2302ef761aa9 = $(`<div id="html_55b9e15241a946f570df2302ef761aa9" style="width: 100.0%; height: 100.0%;">ECOLE MATERNELLE MARYSE PIERRE JUSTIN BOREL</div>`)[0];
+                popup_c727742cbf109090bd20598eeb15fdf2.setContent(html_55b9e15241a946f570df2302ef761aa9);
+            
+        
+
+        marker_298d3413c123b5cfb1685a157fe45dd3.bindPopup(popup_c727742cbf109090bd20598eeb15fdf2)
+        ;
+
+        
+    
+    
+            var marker_4f2051e173fac031b5f8d6c4222acb4b = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_98332f54fcf8e444e4284006d3f4e805 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74c0bc45c1ba42fc2f279742bffb743 = $(`<div id="html_e74c0bc45c1ba42fc2f279742bffb743" style="width: 100.0%; height: 100.0%;">REGIE EXPLOITATION PALAIS DES SPORTS ET CULTURE</div>`)[0];
+                popup_98332f54fcf8e444e4284006d3f4e805.setContent(html_e74c0bc45c1ba42fc2f279742bffb743);
+            
+        
+
+        marker_4f2051e173fac031b5f8d6c4222acb4b.bindPopup(popup_98332f54fcf8e444e4284006d3f4e805)
+        ;
+
+        
+    
+    
+            var marker_c48da2ad661c76e11c3bee92ebe10891 = L.marker(
+                [16.210796, -61.465687],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_9868f831ed0c1bf8e3554f1d64f3c376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e06d600aad2e3d33ca301006f39e485e = $(`<div id="html_e06d600aad2e3d33ca301006f39e485e" style="width: 100.0%; height: 100.0%;">ECOLE MATERNELLE ALEXIS EUGENE</div>`)[0];
+                popup_9868f831ed0c1bf8e3554f1d64f3c376.setContent(html_e06d600aad2e3d33ca301006f39e485e);
+            
+        
+
+        marker_c48da2ad661c76e11c3bee92ebe10891.bindPopup(popup_9868f831ed0c1bf8e3554f1d64f3c376)
+        ;
+
+        
+    
+    
+            var marker_2393eff791091ec1089fea0840654f39 = L.marker(
+                [16.206563, -61.492199],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_006c9011f4e1b2d054fde4da87f92f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_555619fad007c6792edca54760e7e64e = $(`<div id="html_555619fad007c6792edca54760e7e64e" style="width: 100.0%; height: 100.0%;">DISPENSAIRE</div>`)[0];
+                popup_006c9011f4e1b2d054fde4da87f92f33.setContent(html_555619fad007c6792edca54760e7e64e);
+            
+        
+
+        marker_2393eff791091ec1089fea0840654f39.bindPopup(popup_006c9011f4e1b2d054fde4da87f92f33)
+        ;
+
+        
+    
+    
+            var marker_dd9fe0df8f6594fa22a8a3ac67e8ee1c = L.marker(
+                [16.206668, -61.501149],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_eec1b5b4c10920b0b6bf1b396e3b196a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a902f1b45184770ff4b4a0c88e986b48 = $(`<div id="html_a902f1b45184770ff4b4a0c88e986b48" style="width: 100.0%; height: 100.0%;">CIRCONSCRIPTION SOCIALE</div>`)[0];
+                popup_eec1b5b4c10920b0b6bf1b396e3b196a.setContent(html_a902f1b45184770ff4b4a0c88e986b48);
+            
+        
+
+        marker_dd9fe0df8f6594fa22a8a3ac67e8ee1c.bindPopup(popup_eec1b5b4c10920b0b6bf1b396e3b196a)
+        ;
+
+        
+    
+    
+            var marker_85ac162b1dff8efba663f5d3f52f724c = L.marker(
+                [16.208868, -61.49977],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_d15db05bff0b595b5098947f4803cee1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a72551da0b10eb2f74839fa17dda77a = $(`<div id="html_9a72551da0b10eb2f74839fa17dda77a" style="width: 100.0%; height: 100.0%;">CIRC ACTION SANIT ET SOC</div>`)[0];
+                popup_d15db05bff0b595b5098947f4803cee1.setContent(html_9a72551da0b10eb2f74839fa17dda77a);
+            
+        
+
+        marker_85ac162b1dff8efba663f5d3f52f724c.bindPopup(popup_d15db05bff0b595b5098947f4803cee1)
+        ;
+
+        
+    
+    
+            var marker_99eb9e1d05061ea4891715f5c89641e3 = L.marker(
+                [16.229731, -61.472339],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_7532f70d25dbcc541c0c59dc54f510df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f23e8dd6fd9f5a3018a7d494249f132d = $(`<div id="html_f23e8dd6fd9f5a3018a7d494249f132d" style="width: 100.0%; height: 100.0%;">MUTUELLE DE MARE-GAILLARD</div>`)[0];
+                popup_7532f70d25dbcc541c0c59dc54f510df.setContent(html_f23e8dd6fd9f5a3018a7d494249f132d);
+            
+        
+
+        marker_99eb9e1d05061ea4891715f5c89641e3.bindPopup(popup_7532f70d25dbcc541c0c59dc54f510df)
+        ;
+
+        
+    
+    
+            var marker_5a0a944fb02b9401554ba3c3007f9dbc = L.marker(
+                [16.214115, -61.435188],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_0da3426a1af2c2819b3e8e449c244167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9b45b36d67344a56ffb56231af8202f = $(`<div id="html_d9b45b36d67344a56ffb56231af8202f" style="width: 100.0%; height: 100.0%;">UNION NATIONALE DES ENTREPRISES DE COIFFURE DE GUADELOUPE</div>`)[0];
+                popup_0da3426a1af2c2819b3e8e449c244167.setContent(html_d9b45b36d67344a56ffb56231af8202f);
+            
+        
+
+        marker_5a0a944fb02b9401554ba3c3007f9dbc.bindPopup(popup_0da3426a1af2c2819b3e8e449c244167)
+        ;
+
+        
+    
+    
+            var marker_826ef17d2fd509bae410bbce65079c6c = L.marker(
+                [16.205863, -61.489627],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_80497b909e22531839f8cd20903f2647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c268e38d321431e049512939e2cbd5c = $(`<div id="html_7c268e38d321431e049512939e2cbd5c" style="width: 100.0%; height: 100.0%;">MUTUELLE GEST OEUVRES DE LA GUADELOUPE</div>`)[0];
+                popup_80497b909e22531839f8cd20903f2647.setContent(html_7c268e38d321431e049512939e2cbd5c);
+            
+        
+
+        marker_826ef17d2fd509bae410bbce65079c6c.bindPopup(popup_80497b909e22531839f8cd20903f2647)
+        ;
+
+        
+    
+    
+            var marker_f8052ae5e71d709b648decf0c377b6ea = L.marker(
+                [16.208295, -61.506806],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_56344a68db904ee507a6e4cabb160e38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa17a2f7db7b73d016923cce4f7b4816 = $(`<div id="html_aa17a2f7db7b73d016923cce4f7b4816" style="width: 100.0%; height: 100.0%;">CTE D ENTR DU CASINO DU GOSIER</div>`)[0];
+                popup_56344a68db904ee507a6e4cabb160e38.setContent(html_aa17a2f7db7b73d016923cce4f7b4816);
+            
+        
+
+        marker_f8052ae5e71d709b648decf0c377b6ea.bindPopup(popup_56344a68db904ee507a6e4cabb160e38)
+        ;
+
+        
+    
+    
+            var marker_ff89af6e1f1ea5bfeb9db385932cc7b3 = L.marker(
+                [16.218322, -61.500304],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_bcd26cdd99836d4ff193418852b9e66e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14c9d491f4b8ab69b30a9a40670bf8f7 = $(`<div id="html_14c9d491f4b8ab69b30a9a40670bf8f7" style="width: 100.0%; height: 100.0%;">SYNDICAT DES ARTISANS D'ART DE PRODUCTION GUADELOUPEENS</div>`)[0];
+                popup_bcd26cdd99836d4ff193418852b9e66e.setContent(html_14c9d491f4b8ab69b30a9a40670bf8f7);
+            
+        
+
+        marker_ff89af6e1f1ea5bfeb9db385932cc7b3.bindPopup(popup_bcd26cdd99836d4ff193418852b9e66e)
+        ;
+
+        
+    
+    
+            var marker_706799144a16afbf1c2b04ca485fc04f = L.marker(
+                [16.226585, -61.513163],
+                {
+}
+            ).addTo(marker_cluster_3aabb5cba9d640e400dead57540aa424);
+        
+    
+        var popup_d849bbf4125a59431952b32a26ee214a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28c952241c0fc78f3958f9ac4693d239 = $(`<div id="html_28c952241c0fc78f3958f9ac4693d239" style="width: 100.0%; height: 100.0%;">COMITE SOCIAL ET ECONOMIQUE DU SYNDICAT MIXTE DE L'EAU ET DE L'ASSAINISSEMENT DE LA GUADELOUPE</div>`)[0];
+                popup_d849bbf4125a59431952b32a26ee214a.setContent(html_28c952241c0fc78f3958f9ac4693d239);
+            
+        
+
+        marker_706799144a16afbf1c2b04ca485fc04f.bindPopup(popup_d849bbf4125a59431952b32a26ee214a)
+        ;
+
+        
+    
+    
+            marker_cluster_3aabb5cba9d640e400dead57540aa424.addTo(map_fcdf112b59751c77a91667fc2935f34a);
+        
+</script>
+</html>
